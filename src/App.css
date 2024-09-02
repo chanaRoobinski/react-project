@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* כותרת */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77a6b6 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+/* טפסים */
+form {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  background: #77a6b6;
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* דף הבית */
+.recipe-card {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.recipe-card img {
+  max-width: 50%;
+  height: 100px;
+}
+
+.recipe-card .all-recip
+{
+  height: 200px;
+  width: 30%;
+  margin: 50px;
+  border: solid;
+}
+.recipe-card h2 {
+  margin-top: 0;
+}
+
+/* דף פרטי מתכון */
+.recipe-details {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.recipe-details .deta
+{
+   direction: ltr;
+}
+
+.recipe-details h2 {
+  margin-top: 0;
+}
+
+.recipe-details img 
+{
+  padding-top: 0%;
+direction: rtl;
+  max-width: 50%;
+  height: 50%;
+}
+
+/* דף הצגת משתמשים */
+.user-list {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.user-list ul {
+  padding: 5px;
+  list-style: none;
+}
+
+.user-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* דף מועדפים */
+.favorites-list {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.favorites-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.favorites-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* כפתורים */
+.button {
+  display: inline-block;
+  background: #77a6b6;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #333;
+}
+
+/* דף מחיקת מתכון */
+.delete-recipe {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.delete-recipe h2 {
+  margin-top: 0;
+}
+
+.nav navbar-nav link
+{
+  color: black;
+}
