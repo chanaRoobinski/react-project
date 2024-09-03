@@ -5,22 +5,10 @@ import axios from 'axios';
 import Recipe from '../classes/Recipe';
 const Mystate = 
 {
-    
-    // listSubject:[
-    //     {name:'math',numHours:4},
-    //     {name:'English',numHours:3},
-    //     {name:'tora',numHours:3},
-    //     {name:'hebrew',numHours:3}
-    // ],
     recipes:[],
     currentUser:{name:'',password:''},
     counter:0
 }
-// const data =async()=>
-// {
-//    return (await axios.get('http://localhost:3000/recipes/getAll')).data
-    
-//  }
 
 const reducer = produce(
     (state, action) => 
